@@ -1,4 +1,4 @@
-
+<script>
 $(document).ready(function() {
 	    // KORDINAT 
 navigator.geolocation.getCurrentPosition((loc) => {
@@ -6,3 +6,4 @@ navigator.geolocation.getCurrentPosition((loc) => {
   $("#lokasi").html( loc.coords.latitude+','+loc.coords.longitude);
 })
 });
+</script>
